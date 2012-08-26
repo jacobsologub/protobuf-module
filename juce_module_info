@@ -1,0 +1,19 @@
+{
+  "id":             "protobuf",
+  "name":           "Protocol Buffers - Google's data interchange format",
+  "version":        "1.0.0",
+  "description":    "Protocol Buffers are a way of encoding structured data in an efficient yet extensible format. Google uses Protocol Buffers for almost all of its internal RPC protocols and file formats.",
+  "website":        "",
+  "license":        "The BSD 3-Clause License",
+
+  "dependencies":   [],
+
+  "include":        "protobuf.h",
+
+  "compile":        [ { "file": "protobuf.cpp", "target": "! xcode" },
+                      { "file": "protobuf.mm",  "target": "xcode" } ],
+
+  "browse":         [],
+
+  "iOSFrameworks":  ""
+}
